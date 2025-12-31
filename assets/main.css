@@ -18,7 +18,7 @@
       --tw-skew-y: initial;
       --tw-space-y-reverse: 0;
       --tw-border-style: solid;
-      --tw-shadow: 0 0 #0000;
+      --tw-shadow: 0 0 #ea6d1a00;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
       --tw-inset-shadow: 0 0 #0000;
@@ -103,7 +103,7 @@
   --color-stroke-8: #303b49;
   --color-stroke-9: var(--color-background-8);
   --color-ns-yellow: #f9eb57;
-  --color-ns-green: #c6f56f;
+  --color-ns-green: #f5da6f;
   --color-ns-red: #ffb9a2;
   --color-ns-cyan: #83e7ee;
   --color-ns-green-light: #e8fbc6;
@@ -10020,12 +10020,12 @@ body {
   }
 
   .badge-green {
-    background-color: var(--color-ns-green-light);
-  }
+  background-color: #ffd9a1; 
+}
 
-  .badge-green:where(.dark, .dark *) {
-    background-color: #fcfcfc1a;
-  }
+.badge-green:where(.dark, .dark *) {
+  background-color: #ff980033;
+}
 
   @supports (color: color-mix(in lab, red, red)) {
     .badge-green:where(.dark, .dark *) {
@@ -12088,7 +12088,7 @@ body {
     line-height: var(--tw-leading, var(--text-tagline-1--line-height));
   }
 
-  .text-tagline-2 {
+ .text-tagline-2 {
     font-size: var(--text-tagline-2);
     line-height: var(--tw-leading, var(--text-tagline-2--line-height));
   }
